@@ -1,0 +1,330 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap&subset=cyrillic-ext");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+@font-face {
+    font-family: "HelveticaNeueCyr";
+    src: url("../fonts/HelveticaNeueCyr-Roman.woff2") format('woff2'),
+        url("../fonts/HelveticaNeueCyr-Roman.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+* {
+    color: #000;
+}
+li {
+    list-style: none;
+}
+a,
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+img {
+    vertical-align: top;
+} 
+/* -------------------- */
+html, 
+body {
+    height: 100%;
+}
+html {
+  font-size: 16px;  
+}
+body {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    background: url(../img/bg.jpg) center / cover repeat;
+}
+.wrapper {
+    min-height: 100%;
+    padding: 40px;
+}
+
+
+/* HEADER */
+h1 {
+    font-weight: 700;
+    text-align: center; 
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 36px;
+    color: #03a9f4;
+    text-shadow: rgb(48 77 219) 2px 2px 2px;
+    margin: 0 0 60px 0;
+}
+/* -------------------- */
+
+/* MAIN */
+.main {
+    margin: 0 auto;
+    max-width: 1040px;
+}
+.block {
+    background: #fbf7f6;
+    border-radius: 5px;
+    margin: 0 0 65px 0;
+}
+.icon {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #5D62B5;
+    margin: 0 0 35px 0;
+}
+.icon::before {
+    content: "";
+    display: inline-block;
+    background: url(../img/icon.svg) -5px -4px no-repeat;
+    width: 17px;
+    height: 16px;
+    margin: 0 16px 0 0;
+}
+.content {
+    padding: 0 0 33px 0;
+} 
+.title h2 {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000;
+    margin: 0 0 70px 0;
+}
+.items {
+    font-size: 0;
+}
+.item {
+    width: 33.333%;
+    display: inline-block;    
+}
+.img {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 23px;
+}
+.content-text {
+    display: inline-block;
+    vertical-align: top;
+}
+.text {
+    display: inline-block;
+    vertical-align: top;
+    width: 236px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    color: #4B4B4B;
+}
+h3 {
+    font-weight: 900;
+    font-size: 19px;
+    line-height: 26px;
+    color: #F2726F;
+    margin: 0 0 20px 0;
+}
+.services {
+    margin: 0 0 66px 0;
+}
+.items1 {
+    font-size: 0;
+}
+.items1:not(:last-child) {
+    margin: 0 0 20px 0;
+}
+.item1 {
+    text-align: center;
+    width: 32%;
+    background-color: #fff;
+    display: inline-block;
+    padding: 45px 46px 50px 43px;
+    border-radius: 20px;
+} 
+.item1:not(:last-child) {
+    margin: 0 20px 0 0;
+}
+.item1:hover {
+    box-shadow: 0 5px 5px 3px #a19a9a;
+}
+.img1 {
+    padding: 45px 46px 50px 43px;
+}
+.btn {
+    text-align: center;
+}
+.learn {
+    display: inline-block;
+    background: #F2726F;
+    border-radius: 8px;
+    padding: 9px 28px 9px 28px;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border: 1px solid transparent;
+    text-transform: uppercase;
+}
+.learn:hover {
+    color: #F2726F;
+    background: #fff;
+    border: 1px solid #F2726F;
+    box-shadow: 0 5px 5px 1px #a19a9a;
+}
+.block:last-child {
+    padding: 0 0 60px 0;
+}
+.container {
+    background: #29C3BE url(../img/shadow2.png) 75% 0 no-repeat;
+}
+.inner {
+    padding: 112px 0 212px 0;
+}
+.icon-white {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0 0 32px 0;
+}
+.icon-white::before {
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 21px;
+    background: url(../img/icon-white.svg) -5px 1px no-repeat;
+    margin: 0 16px 0 0;
+}
+.title-white {
+    display: inline-block;
+    max-width: 410px;
+    margin: 0 124px 80px 0;
+}
+.title-white h2 {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    color:#fff;
+}
+.image-white {
+    display: inline-block;
+    vertical-align: top;
+    margin: -230px 0 0 0;
+}
+.img-dog {
+    border-radius: 40px;
+}
+.impact-items {
+    font-size: 0;
+}
+.impact-item {
+    display: inline-block;
+    max-width: 237px;
+    margin: 0 73px 0 0;
+}
+.impact-img {
+    display: inline-block;
+    margin: 0 10px 0 0;
+    vertical-align: top;
+}
+.box-item {
+    display: inline-block;
+    padding: 5px 0 0 0;
+}
+.impact-item span {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    color: #fff;
+    padding: 0 0 5px 0;
+}
+.impact-item p {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    color: #5D62B5;
+}
+.appointment {
+
+}
+.block-appointment {
+    margin: -75px auto 50px;
+    max-width: 1020px;
+    display: inline-block;
+    background: #5D62B5;
+    border-radius: 20px;
+    padding: 43px 76px 46px 70px;
+}
+.appointment-text {
+    
+    display: inline-block;
+}
+.appointment-text p {
+    max-width: 562px;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 30px;
+    color: #fff;
+}
+.appointment-btn {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 20px;
+}
+.appointment-link {
+    background: #F2726F;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 15px 33px 15px 33px;
+    border: 2px solid transparent;
+}
+.appointment-link:hover {
+    background: #fff;
+    border: 2px solid #F2726F;
+    color: #F2726F;
+}
+
+
+
+/* -------------------- */
+
+/* FOOTER */
+.footer {
+    color: #29c3be;
+    text-align: center;
+    line-height: 200%;
+    font-size: 50px;
+    padding-top: 20px;
+    border-top: 2px solid #5d62b5;
+    text-transform: uppercase;
+}
+/* -------------------- */
